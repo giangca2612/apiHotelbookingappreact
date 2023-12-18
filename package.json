@@ -10,6 +10,7 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "braces": "^2.3.0",
+    "chokidar": "^2.0.3",
     "clean-css": "^4.1.11",
     "constantinople": "^3.1.1",
     "cookie-parser": "~1.4.4",
@@ -17,6 +18,7 @@
     "debug": "~2.6.9",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "firebase-tools": "^13.0.2",
     "glob-parent": "^5.1.2",
     "http-errors": "~1.6.3",
     "http-proxy-middleware": "^2.0.6",
@@ -28,6 +30,7 @@
     "ngrok": "^5.0.0-beta.2",
     "node": "^21.2.0",
     "pug": "^3.0.2",
+    "react-native-validator-form": "^1.0.0",
     "sweetalert2": "^11.6.13",
     "uglify-js": "^2.5.0"
   },
@@ -39,5 +42,6 @@
     "babel-cli": "^6.26.0",
     "livereload": "^0.9.3",
     "nodemon": "^3.0.2"
-  }
+  },
+  "preinstall": "npx npm-force-resolutions"
 }
